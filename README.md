@@ -5,7 +5,7 @@ vibration and a target variable of predictive maintenance scores. Time series an
 patterns in machine behavior, detect anomalies and forecast maintenance needs. By modeling trends,
 seasonality, and sensor correlations, we can optimize eCiciency, reduce downtime and enhance predictive
 maintenance strategies. This project uses and compares these techniques to find the model with the lowest MSE 
-for intelligent manufacturing. The study concluded with an LSTM model.
+for better predictive maintenance by early detection of faults. The study concluded with an LSTM model.
 
 The Long Short-Term Memory (LSTM) model is a specialized type of recurrent neural network (RNN)
 designed to capture long-term dependencies and complex temporal patterns in sequential data.
@@ -16,7 +16,7 @@ to predict equipment failures by recognizing subtle degradation patterns over ti
 important information while discarding the irrelevant noise our data has. LSTMs work better when
 combined with feature engineering like rolling statistics or lagged variables. They can integrate
 exogenous inputs as additional features. Although computationally intensive, they are a powerful
-tool for scenarios where traditional methods fall short, provided suCicient training data is available,
+tool for scenarios where traditional methods fall short, provided enough training data is available,
 like in our case.
 
 The model architecture consists of two LSTM layers: the first with 50 units and outputs pass to the
